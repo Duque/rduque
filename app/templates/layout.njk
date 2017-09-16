@@ -1,0 +1,19 @@
+{# layout.njk #}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<title>{% block titleHeader %}{% endblock %}</title>
+		
+		<link rel="stylesheet" href="public/css/styles.css">
+		
+	</head>
+
+	{# Set css body classes in bodyClass block #}
+	<body class="{% block bodyClass %}{% endblock %}">
+		
+		{% block content %}Layout block content{% endblock %}
+		
+	</body>
+</html>
