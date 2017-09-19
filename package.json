@@ -1,14 +1,18 @@
 {
-  "name": "proyecto-con-browser-sync",
+  "name": "rDuque.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository" :
+  { "type" : "git", 
+    "url" : "https://github.com/Duque/rduque.git"
+  },
   "scripts": {
     "watch": "node --stack-size=42000 node_modules/gulp/bin/gulp watch",
     "dev": "node --stack-size=42000 node_modules/gulp/bin/gulp default",
     "prod": "node node_modules/gulp/bin/gulp css:prod"
   },
-  "author": "",
+  "author": "Raúl Duque Montánez - rDuque.com",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.16.1",
@@ -24,5 +28,10 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0",
     "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
   }
 }
