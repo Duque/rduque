@@ -1,0 +1,853 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"color",
+				"color-black"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"color-gra",
+				"color-gray-medium"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padin",
+				"padding-right"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"link",
+				"link-description"
+			],
+			[
+				"cn",
+				"cnt-preview-post_link"
+			],
+			[
+				"cnt",
+				"cnt-preview-post_video"
+			],
+			[
+				"btn",
+				"btn-img"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"mdi",
+				"mdi-light"
+			],
+			[
+				"floating",
+				"floating-button"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"comments",
+				"comments-block"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"mR",
+				"mr:a\tmargin-right:auto"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"color-",
+				"color-gray-medium"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"np",
+				"nowrap"
+			],
+			[
+				"color-gr",
+				"color-gray-dark"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"width",
+				"width-100"
+			],
+			[
+				"blo",
+				"blockquote\tTag"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"acti",
+				"action-bar"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"colro",
+				"color-white"
+			],
+			[
+				"colo",
+				"color-white"
+			],
+			[
+				"ou",
+				"outline-style"
+			],
+			[
+				"fo",
+				"focus"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"bt",
+				"btn-default"
+			],
+			[
+				"form-",
+				"form-control"
+			],
+			[
+				"in",
+				"z-index"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"gar",
+				"color-gray-dark"
+			],
+			[
+				"trans",
+				"transform-origin"
+			],
+			[
+				"col",
+				"color-gray-medium"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"flex-",
+				"flex-basis"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"whe",
+				"when"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ta",
+				"text-align"
+			],
+			[
+				"br",
+				"bdr\tborder-right"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"lsn",
+				"list:n\tlist-style-type:none"
+			],
+			[
+				"t",
+				"title"
+			],
+			[
+				"word-",
+				"word-wrap"
+			],
+			[
+				"p",
+				"public"
+			],
+			[
+				"f",
+				"flex"
+			],
+			[
+				"gr",
+				"gray"
+			],
+			[
+				"b",
+				"bd\tborder"
+			],
+			[
+				"sh",
+				"box-shadow"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"d",
+				"d:b\tdisplay:block"
+			],
+			[
+				"color-grey",
+				"color-grey-EE"
+			],
+			[
+				"color-grey-",
+				"color-grey-9E"
+			],
+			[
+				"color-g",
+				"color-grey-FC"
+			],
+			[
+				"mari",
+				"margin-right"
+			],
+			[
+				"co",
+				"color-white"
+			],
+			[
+				"li",
+				"light"
+			],
+			[
+				"g",
+				"gutter-grid"
+			],
+			[
+				"dro",
+				"dropdown-menu"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"colr",
+				"color-black"
+			],
+			[
+				"bore",
+				"border-bottom"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"icon",
+				"iconSize"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"h6",
+				"font-size-h6"
+			],
+			[
+				"bran",
+				"brand-primary"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"cler",
+				"clearfix"
+			],
+			[
+				"o",
+				"overflow-y"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"bg-da",
+				"bg-gray-darker"
+			],
+			[
+				"bg-g",
+				"bg-gray-darker"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"lis",
+				"list\tlist-style-type"
+			],
+			[
+				"arbol",
+				"arbolDefault"
+			],
+			[
+				"her",
+				"herramientaActiva"
+			],
+			[
+				"Herr",
+				"herr-arboles"
+			],
+			[
+				"on",
+				"onMouseMove"
+			],
+			[
+				"e",
+				"escuchando"
+			],
+			[
+				"Herra",
+				"Herramienta"
+			],
+			[
+				"new",
+				"newArbo"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pin",
+				"pintarArbol"
+			],
+			[
+				"herr",
+				"herrActiva"
+			],
+			[
+				"onC",
+				"onclick\tAttr"
+			],
+			[
+				"ar",
+				"arbol2"
+			],
+			[
+				"sr",
+				"script\tTag"
+			],
+			[
+				"md",
+				"middle"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"edit",
+				"editorTools"
+			],
+			[
+				"edi",
+				"editorTools"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"botr",
+				"border-bottom"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"import",
+				"important"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 324.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			],
+			[
+				"install",
+				"Install Package Control"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Convert Case: Upper Case"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/rDuqueTW/wp-content/themes/rDuqueTheme"
+	],
+	"file_history":
+	[
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/pages/post-buzz-preview-loading.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/pages/post-buzz-preview-initial-link.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/pages/post-buzz-preview-hive.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/pages/post-buzz-preview-bee.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/producer-editor.html",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/templates/partials/bb-media.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/public/scss/components/bb-media.scss",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/templates/partials/quick-buzz.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/gulpfile.js",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/public/scss/components/bb-editor.scss",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/public/scss/components/bb_editor.scss",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/pages/all-cards.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/templates/partials/modal-bottom-sheets.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/templates/partials/profiles-row.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/templates/partials/mentions.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/templates/partials/buzz-view.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/templates/partials/header.njk",
+		"/home/duque/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/public/css/styles.css",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/package.json",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/pages/gallery-component",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/pages/gallery.njk",
+		"/home/duque/proyectos/bebee/crab_mobile_layout/app/public/scss/styles.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/btn.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/floating-button.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/card.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/templates/partials/comment-block.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/pages/producer-drafts.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/css/styles.css",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/common/bootstrap/_variables.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/node_modules/bower/lib/commands/search.js",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/public/scss/common/btn.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/admin-adds.html",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/public/scss/common/bootstrap/_component-animations.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/pages/messages.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/jobs.html",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/public/scss/common/buzzes.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/public/scss/common/header.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/percent.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/style-guide.html",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/comments.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/buzz-view.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/buzz.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/pages/more-off.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/pages/style-guide.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/templates/partials/post-buzz.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/templates/partials/modal.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/templates/partials/btn.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/public/scss/common/icons.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/common/icons.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/public/scss/common/tabs.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/public/scss/common/jobs.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/modal.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/profile-card.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/pages/producer-stats-3.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/profile-textarea.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/post-buzz-block.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/pages/style-guide.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/common/common.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/pages/producer-stats-2.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/templates/partials/footer.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/footer.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/list.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/mention.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/pages/producer-editor.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/item-list.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/public/scss/common/variables.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/pages/producer-buzz.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/header.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/buzz-view.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/buzz.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout_desktop/app/public/scss/styles.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/producer-header-image.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/pages/producer-editor-blockquote.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/profile-type.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/forms.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/buttons.scss",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/public/scss/components/editor-tools.scss",
+		"/home/elbarbo/proyectos/imgCanvas/package.json",
+		"/home/elbarbo/proyectos/imgCanvas/npm-debug.log",
+		"/home/elbarbo/proyectos/imgCanvas/src/js/eventos.js",
+		"/home/elbarbo/proyectos/imgCanvas/src/js/elementos.js",
+		"/home/elbarbo/proyectos/imgCanvas/src/js/canvas.js",
+		"/home/elbarbo/proyectos/imgCanvas/src/js/inspeccionarObjeto.js",
+		"/home/elbarbo/proyectos/imgCanvas/src/svg/arbol.html",
+		"/home/elbarbo/proyectos/imgCanvas/styles.css",
+		"/home/elbarbo/proyectos/imgCanvas/index.html",
+		"/home/elbarbo/proyectos/Angular 2/quickstart/src/app/app.component.ts",
+		"/home/elbarbo/proyectos/Angular 2/quickstart/src/app/app.module.js",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/src/app/dev/dev.component.ts",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/src/app/lienzo/lienzo.component.ts",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/src/app/app.module.ts",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/src/app/dev/dev.component.html",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/src/app/app.component.html",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/src/app/lienzo/lienzo.component.html",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/src/styles.css",
+		"/home/elbarbo/proyectos/Angular 2/maps6/src/app/app.component.html",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/scss/_default.scss",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/src/app/app.component.css",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/tslint.json",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/webpack.config.js",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/package.json",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/src/app/lienzo/lienzo.component.css",
+		"/home/elbarbo/proyectos/Angular 2/iPerma/src/index.html",
+		"/home/elbarbo/proyectos/Angular 2/maps6/package.json",
+		"/home/elbarbo/proyectos/Angular 2/maps6/src/app/canvas/canvas.component.html",
+		"/home/elbarbo/proyectos/Angular 2/maps6/src/app/canvas/canvas.component.ts",
+		"/home/elbarbo/proyectos/Angular 2/maps6/src/app/app.component.ts",
+		"/home/elbarbo/proyectos/Angular 2/maps6/src/app/map/map.component.ts",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/editorTools.njk",
+		"/home/elbarbo/proyectos/bebee/pigeon_layout/src/layouts/index-layout.html",
+		"/home/elbarbo/proyectos/bebee/pigeon_layout/node_modules/foundation-emails/scss/components/_typography.scss",
+		"/home/elbarbo/proyectos/Angular 2/maps6/src/app/canvas/canvas.component.spec.ts",
+		"/home/elbarbo/proyectos/Angular 2/maps6/src/app/map/map.module.ts",
+		"/home/elbarbo/proyectos/Angular 2/maps6/src/app/app.module.ts",
+		"/home/elbarbo/proyectos/Angular 2/maps6/src/app/map/map.component.html",
+		"/home/elbarbo/proyectos/bebee/pigeon_layout/src/pages/hero.html",
+		"/home/elbarbo/proyectos/bebee/pigeon_layout/src/pages/index.html",
+		"/home/elbarbo/proyectos/bebee/pigeon_layout/src/assets/scss/app.scss",
+		"/home/elbarbo/proyectos/bebee/emails/beBeeMails/src/assets/scss/_settings.scss",
+		"/home/elbarbo/proyectos/bebee/mockups/mails/Archivo comprimido 2/index.html",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/my-profile-empty.njk",
+		"/home/elbarbo/Descargas/splash.html",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/pages/hive-history-list.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/templates/partials/list.njk",
+		"/home/elbarbo/proyectos/bebee/crab_layout/app/producer-editor.html",
+		"/var/www/html/el-barbo.es/wp-content/themes/el-barbo6/404.php",
+		"/var/www/html/el-barbo.es/wp-content/themes/el-barbo6/index.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 187.0
+	},
+	"pinned_build_system": "",
+	"project": "rDuqueTW.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 293.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 477.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 302.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
