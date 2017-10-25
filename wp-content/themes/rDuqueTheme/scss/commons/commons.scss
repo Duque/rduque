@@ -1,0 +1,23 @@
+//OUR CSS
+
+
+//MENUS
+
+//Navs defaults
+nav {
+	a {
+		color: $gray-700;
+	}
+}
+
+
+//Footer Menu
+.menu-menu-inferior-container {
+	.menu {
+		@extend .list-inline;
+
+		.menu-item {
+			@extend .list-inline-item;
+		}
+	} 
+}

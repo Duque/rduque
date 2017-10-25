@@ -19,7 +19,7 @@ const removeEmptyLines = require('gulp-remove-empty-lines');
 var config = {
     appPath 			: './',
     sassPath 			: './wp-content/themes/rDuqueTheme/scss',
-    cssPath 			: './wp-content/themes/rDuqueTheme/css',
+    cssPath 			: './wp-content/themes/rDuqueTheme/',
     prodPath 			: './build',
 };
 
@@ -47,8 +47,6 @@ gulp.task('watch', function() {
     
     gulp.watch(config.sassPath+'/**/*.scss', ['css', reload]);
 });
-
-gulp.task('default', ['css']);
 
 gulp.task('browser-sync', function() {
     browserSync.init({

@@ -9,6 +9,7 @@
   "author": "Raúl Duque Montánez",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^4.0.0-beta",
     "browser-sync": "^2.16.1",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
@@ -18,9 +19,12 @@
     "gulp-jsbeautifier": "^2.0.3",
     "gulp-nunjucks-render": "^2.0.0",
     "gulp-remove-empty-lines": "0.0.8",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0",
+    "jquery": "^3.0.0",
+    "popper.js": "^1.12.5",
     "run-sequence": "^1.2.2"
   }
 }

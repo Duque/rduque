@@ -1,0 +1,41 @@
+//BOOTSTRAP REBUILD
+.container-fluid {
+	padding-top: 					$gutter-grid;
+
+	article {
+		margin-bottom: 			$gutter-grid;
+	}
+} 
+
+
+//BUTTONS
+.btn {
+
+	color: 								$white;
+
+	&:hover {
+		color: 							$white;
+	}
+
+}
+
+
+//BADGES
+.badge {
+	
+	a {
+		color: 							$white!important;   
+	}
+}
+
+//CARDS
+.card {
+
+	.card-text {
+
+		img {
+			max-width: 				100%;
+			height: 					auto;
+		}
+	}
+}

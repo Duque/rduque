@@ -1,9 +1,20 @@
-* {
-	background-color:red; 
-	
-	a {
-		color: white;
-		text-decoration: underline; 
-	}
-}
+/*
+Theme Name: rDuque Wordpress Theme
+Theme URI: https://rduque.com
+Author: Raúl Duque Montánez - rDuque.computer
+Author URI: https://rduque.com/
+Description: Simple, minimal and fast Bootstrap4 wordpress theme
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
 
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import 'bootstrap/bootstrap',
+				'commons/bootstrap-rebuild', 
+				'commons/wordpress-rebuild',
+				'commons/commons';
