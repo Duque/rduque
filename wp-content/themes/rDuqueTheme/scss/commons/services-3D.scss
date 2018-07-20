@@ -1,0 +1,608 @@
+.rd_3D-services {
+	position: 											relative;
+	display:												block;
+	width:													100%;
+	height:													100vh;
+	background-color:								$blue-gray-900;
+
+	@include media-breakpoint-up(md) {
+		// Same that @extend .container;
+		max-width: 										720px;
+		margin-right: auto;
+    margin-left: auto;
+	}
+
+	.rd_3D-services-panel {
+		border-radius:								$border-radius;
+		padding: 											$gutter-grid;
+		text-align:										center;
+		box-shadow:										$default-shadow;
+		z-index: 											100;
+	}
+
+	.rd_3D-services-title {
+		display: 											none;
+		width:												100%;
+		position:											absolute;
+		top:													10%;
+		text-align: 									center;
+		font-family: 									'Bevan';
+		font-size: 										30px;
+		text-shadow: 									$text-shadow;	
+		animation-name:								rd_3D_services-title_Animation_in;
+		animation-duration:						1s;
+
+		small {
+			font-family: 								'Roboto';
+			font-size: 									20px;
+			text-shadow: 								$text-shadow;
+		}
+	}
+
+	.rd_3D-services-core, 
+	.rd_3D-services-web, 
+	.rd_3D-services-mk, 
+	.rd_3D-services-learn {
+		padding:											0px;
+		display: 											block;
+		position: 										absolute;
+		height: 											1px;
+
+		ul {
+			width: 											auto;
+			height:											auto;
+			margin:											0px;
+			padding: 										0px;
+
+			li {
+				width: 										auto;
+				list-style-type: 					none;
+				margin-bottom: 						$gutter-grid/2;
+				clear: 										both;
+
+				&.slideInRight {
+					float:									right;
+
+					h3.arrow:before	{
+						float: left;
+						margin-right: 7px;
+					} 									
+				}
+
+				&.slideInLeft {
+					float: 									left;
+
+					h3.arrow:before	{
+						float: right;
+						margin-left: 7px;
+					}
+				}
+
+				h1, h2 {
+					text-shadow: 						$text-shadow;
+					font-size: 							35px;
+					padding:								$gutter-grid / 2;
+					
+					small {
+						font-size: 						18px;
+					}
+				} 
+
+				h3 {
+					margin: 								0px;
+					font-size: 							18px;
+					color: 									white;
+					box-shadow:							$default-shadow;	
+					cursor: 								pointer;
+
+					@extend									.badge;
+					@extend									.badge-primary;
+
+					&.arrow:before {
+						display: 							block; 
+						margin-top: 7px;
+						content: 							'';
+						width: 								0;
+						height: 							0;
+						border-style: 				solid;
+						border-width: 				5px 5px 0 5px;
+						border-color: 				$color-secondary-1-1 transparent transparent transparent; 
+					}
+				}
+
+				.rd_3D-services-info {
+					display: 								none;
+					position:								relative;
+					max-width: 							300px;
+					background-color:				rgba(0,0,0,0.7);
+					animation-name:					rd_3D_services_info_Animation;
+					animation-duration:			1s;
+					margin-top: 						$gutter-grid / 2;
+					padding:								$gutter-grid / 2;
+
+					@extend	.text-center;
+
+					.material-icons {
+						@extend .btn-block;
+						@extend .mb-4;
+					}
+				}
+			}
+		}
+	} 
+
+	.rd_3D-services-web, .rd_3D-services-mk, .rd_3D-services-learn {
+		z-index: 											30;
+	}
+
+	.rd_3D-services-core {
+		position:											absolute;
+		left: 												50%;
+		top:													50%;
+		width: 												200px;
+		height: 											200px;
+		margin-top:										-100px;
+		margin-left: 									-100px;
+		z-index: 											15;
+
+		/*
+		animation-name:								rd_3D-services-core-Animation;
+		animation-duration:						10s;
+		animation-iteration-count:		infinite;
+		animation-delay:							0s;
+		*/
+
+		.rd_3D-services-core-circle {
+			display: 											block;
+			position:											absolute;
+			left: 												50%;
+			top: 													50%;
+			width:												150px;
+			height:												150px;
+			margin-left: 									-75px;
+			margin-top: 									-75px; 
+			background-color:							$blue-gray;
+			border:												5px solid $blue-gray-900;
+			border-radius:								50%;
+			box-shadow: 									$vertical-shadow;
+			z-index: 											15;
+			cursor:												pointer;
+
+			.rd_3D-services-core-title {
+				@extend .animated;
+				@extend .jackInTheBox;
+				position:										absolute;
+				top:												50%;
+				width: 											100%;
+				margin: 										0px;
+				margin-top: 								-17px;
+				text-align:									center;
+				font-family: 								'Bevan';
+				font-size: 									30px;
+				text-shadow: 								$text-shadow;
+				cursor:											pointer;
+
+				&.inactive {
+					color:										$blue-gray-900;
+					text-shadow:							$text-shadow-white; 
+					cursor:										default;
+				} 
+				&.active {
+					animation-name:						rd_3D-services-core-circle-title-Animation;
+					animation-duration:				0.5s;
+				}
+
+				.material-icons {
+					margin-top: 							-8px;
+					cursor:										default;
+					text-shadow: 							none;
+				}
+			}
+
+			&.inactive {
+				background-color:						$blue-gray-800;
+				border:											$blue solid $blue-gray-900;
+				cursor: 										default;
+			}
+			&.active {
+				animation-name: 							rd_3D-services-core-circle-Animation;
+				animation-iteration-count:		infinite;						
+				animation-duration:						5s;
+			}
+		}	
+
+		.rd_3D-services-core-circle-web, 
+		.rd_3D-services-core-circle-mk, 
+		.rd_3D-services-core-circle-learn,
+		.rd_3D-services-core-circle-key {
+			position:											absolute;
+			display: 											block;
+			width: 												80px;
+			height: 											80px;
+			margin-top: 									-40px;
+			margin-left: 									-40px;
+			border:												4px dashed #1c262a;
+			border-radius:								50%;
+			background-color:							$blue-gray-300;
+			animation-timing-function: 		linear; 
+			animation-duration:						15s;
+			animation-iteration-count:		infinite;
+			animation-name:								rd_3D-services-core-circle-mechanic-Animation;
+			z-index: 											10!important;
+			cursor: 											pointer;
+			box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+			
+			// Shadow
+			&:after {
+				display: 										block;
+				position: 									relative;
+				top: 												-90px;
+				left: 											-4px;
+				z-index: 										3;
+				width: 											80px;
+				height: 										80px;
+				content: 										'';
+				background-color: 					transparent;
+				border-radius: 							50%;
+			}
+
+			// Click me
+			&:before {
+				position:										relative;
+				display: 										block;
+				content: 										'';
+				width: 											100px;
+				height: 										100px;
+				margin-left: 								-14px;
+				margin-top: 								-14px;
+				//border:											1px solid $blue-gray-600;
+				border-radius:							50%;
+				background-color:						transparent;
+				z-index: 										4!important;
+				animation-duration:					6s;
+				animation-iteration-count:	infinite;
+				animation-name:							rd_clickMe-Animation;
+			}
+
+			&:nth-child(1):before {
+				@extend .delay05-0;
+			}
+			&:nth-child(2):before {
+				@extend .delay05-7;
+			}
+			&:nth-child(3):before {
+				@extend .delay05-9;
+			}
+
+			&:hover {
+				background-color:						$white;
+			}
+
+			&.active {
+				background-color:						$color-secondary-2-2;
+			}
+		}
+
+		.rd_3D-services-core-circle-web-unblock, 
+		.rd_3D-services-core-circle-mk-unblock, 
+		.rd_3D-services-core-circle-learn-unblock {
+			position:											absolute;
+			display: 											none;
+			width: 												110px;
+			height: 											110px;
+			border-radius:								50%;
+			z-index: 											5!important;
+			cursor: 											pointer;
+			//box-shadow: 									0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+
+			&.active {
+				display: 										block;
+				background-color:						transparent;
+				border:											6px dashed $blue-gray-100;
+				animation-timing-function: 	ease; 
+				animation-duration:					3s;
+				animation-iteration-count:	1;
+				animation-name:							rd_3D-services-core-circle-mechanic-Step;
+			}
+
+			&.explode {
+				animation-timing-function: 	ease; 
+				animation-duration:					0.5s;
+				animation-iteration-count:	1;
+				animation-name:							rd_3D-services-core-circle-mechanic-Explode;	
+			}
+		}
+		.rd_3D-services-core-circle-key {
+			top: 													98px;
+			left: 												100px;
+			background-color:							$blue-gray-100;
+			animation-direction: 					reverse;
+		}
+		.rd_3D-services-core-circle-web {
+			top:													80px;
+			left:													25px;
+			background-color:							$blue-gray-100;
+			animation-delay:							0.4s;
+		}	
+		.rd_3D-services-core-circle-web-unblock {
+			top: 													25px;
+			left: 												-30px;
+		}
+
+		.rd_3D-services-core-circle-mk {
+			top:													50px;
+			right:												0px;
+			background-color:							$blue-gray-300;
+		}	
+		.rd_3D-services-core-circle-mk-unblock {
+			top:													-5px;
+			right:												-15px;
+		}
+ 
+		.rd_3D-services-core-circle-learn {
+			bottom:												-10px;
+			left:													124px;
+			background-color:							$blue-gray-600;
+			animation-delay:							0.3s;
+		}	
+
+		.rd_3D-services-core-circle-learn-unblock {
+			bottom: 											-25px;
+			left: 												69px;
+		}	
+
+		.rd_3D-services-que-es-swiip {
+			@extend .rd_3D-services-panel;
+			@extend .rd_bg-blue-gray-300;
+
+			display: 											none;
+			position:											relative;
+			top:													-120px;
+			left:													-50px;
+			width:												300px;
+
+			&.show {
+				display: 										block;
+				animation-name:							rd_3D_services_que_es_swiip_Animation;
+				animation-duration:					0.4s;
+			}
+
+			h1, h2, h3 {
+				margin-bottom: 							$gutter-grid;
+				text-shadow: 								$text-shadow-555; 
+			}
+		}
+	}	
+
+	.rd_3D-services-web {
+		display: 												none;
+		left:														0%;
+		top:														10px;
+	} 
+
+	.rd_3D-services-mk {
+		display: 												none;
+		right:													0%;
+		top:														30px;
+
+		li {
+			text-align: 									right;
+
+			h2 {
+				line-height: 								25px;
+			}
+		}
+	} 
+
+	.rd_3D-services-learn {
+		display: 												none;
+		right:													0%;
+		top:														0px;
+
+		li {
+			text-align: 									right;
+
+		}
+
+		.rd_3D-services-learn-video {
+			display: 											none;
+		}
+	}
+
+	.rd_show-menu-bottom-area-push, .rd_show-menu-bottom {
+		display: 												block;
+		content: 												'';
+		position:												absolute;
+		left:														50%;
+		width: 													50px;
+		height: 												50px;
+		cursor: 												pointer; 
+	}
+
+	.rd_show-menu-bottom-area-push {
+		margin-left: 										-25px;
+		z-index: 												11;
+		bottom:													1.5%;
+	}
+
+	.rd_show-menu-bottom {
+		bottom:													4%;
+		z-index: 												10;
+		margin-left: 										-15px;
+		width: 													0;
+		height: 												0;
+		border-style: 									solid;
+		border-width: 									0 15px 15px 15px;
+		border-color: 									transparent transparent $blue-gray-200 transparent;
+	}
+
+	.rd_menu-bottom {
+		display: 												none;
+		position: 											absolute;
+		width: 													100%;
+		bottom:													10%;
+		text-align:											center;
+		z-index: 												11; 
+
+		ul {
+			@extend .list-inline;
+			width: 												auto;
+			margin-bottom: 								0px;
+
+			li {
+				@extend .list-inline-item;
+				font-size: 14px;
+
+				a {
+					color: $white;
+				}
+			}
+		}
+
+		.copy {
+			font-size:										12px;
+			color:												$blue-gray-400;
+		}
+	}
+}
+
+
+// ANIMATIONS
+
+// Showing <li> services
+$delay05: 													delay05 !default
+$delayCont: 												-0.5;
+$delaySecuenceCont:									0;
+
+@for $i from 0 through 9 {
+
+  .#{$delay05}-#{$delaySecuenceCont} {
+  	animation-delay:							$delayCont+s;
+  }
+	
+	li.slideInRight:nth-child(#{$delaySecuenceCont}) {
+		@extend .#{$delay05}-#{$delaySecuenceCont};
+	}
+
+	li.slideInLeft:nth-child(#{$delaySecuenceCont}) {
+		@extend .#{$delay05}-#{$delaySecuenceCont};
+	}
+
+  $delayCont: $delayCont + 0.1;
+  $delaySecuenceCont: $delaySecuenceCont + 1;
+}
+
+
+// KEYFRAMES
+
+@keyframes rd_3D-services-core-Animation {
+  from { transform: 							rotate(0deg); }
+
+  to { transform: 								rotate(360deg); }
+}
+
+@keyframes rd_3D-services-core-circle-title-Animation {
+	from { transform: 							scale(0); }
+
+  to { transform: 								scale(1); }
+}
+
+@keyframes rd_3D-services-core-circle-Animation {
+  from { border:									5px solid $blue-gray-800; }
+  50% { border:										5px solid $blue-gray-200; }
+  to { border:										5px solid $blue-gray-800; }
+}
+
+@keyframes rd_3D-services-core-circle-mechanic-Animation {
+	from { transform:								rotate(0deg); }
+	to { transform:	 								rotate(-360deg); }
+}
+
+@keyframes rd_clickMe-Animation {
+	from {
+		transform: 										scale(0);
+		background-color: 						rgba(999,999,999,0.0);
+		//border:												1px solid $blue-gray-300;
+	}
+	5% {
+		background-color:							rgba(999,999,999,0.1);
+		transform: 										scale(1.1);
+		//border:												1px solid rgba(999,999,999,0);
+	}
+	10% {
+		background-color:							rgba(999,999,999,0.0);
+		transform: 										scale(0.4);
+		//border:												1px solid rgba(999,999,999,0);	
+	}
+	to {
+		transform: 										scale(0.4);
+		//border:												1px solid rgba(999,999,999,0);	
+	}
+}
+
+@keyframes rd_3D_services-title_Animation_in {
+	from {
+		top:													0px;
+		color:												transparent;
+		text-shadow: 									0px 0px 0px transparent;
+	}
+
+	to {
+		top:													10%;
+		color:												$white;
+		text-shadow: 									$text-shadow;
+	}
+}
+
+@keyframes rd_3D_services-title_Animation_out {
+	from {
+		top:													10%;
+		color:												$white;
+		text-shadow: 									$text-shadow;
+	}
+
+	to {
+		top:													102%;
+		color:												transparent;
+		text-shadow: 									0px 0px 0px transparent;
+	}
+}
+
+@keyframes rd_3D_services_que_es_swiip_Animation {
+	from {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes rd_3D-services-core-circle-mechanic-Step {
+	from { 
+		transform:								rotate(0deg);
+	}
+	to { 
+		transform:	 							rotate(360deg);
+	}
+} 
+
+@keyframes  rd_3D-services-core-circle-mechanic-Explode {
+	from {
+		transform: 								scale(1);
+	}
+	to {
+		transform: 								scale(100);
+	}
+}

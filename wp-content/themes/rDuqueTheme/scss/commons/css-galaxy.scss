@@ -1,0 +1,104 @@
+.css-galaxy {
+	display: block;
+	position: relative;
+	background-color:	#121212;
+	width:	400px;
+	height:	400px;
+
+	ul {
+		padding: 0px;
+		margin:  0px;
+		position: relative;
+		left: 50%;
+		top: 50%;
+
+		li {
+			position:	absolute; 
+			list-style-type: none;
+			background-color: transparent;
+
+			width: 1px;
+			height: 1px;
+			border-radius: 50%;
+
+		  animation: star-motion 100s infinite;
+		  animation-timing-function: linear;
+
+		  span {
+		  	display: block;
+		  	position:	absolute;
+		  }
+		}
+
+		$stars: 1;
+		@for $i from 0 through 50 {
+			$seed: random(7);
+		  
+
+		  li:nth-child(#{$stars}) {
+		  	animation-delay: 0+'.'+$stars+s;
+		  	
+	  		$top: 0 + random(400);
+		  	$left: 0 + random(400);
+	  		$star-size: random(10);
+
+		  	&:before, & span {
+		  		display: block;
+		  		position:	relative;
+		  		content: '';
+		  		width: $star-size+px;
+		  		height: $star-size+px;
+		  		border-radius: 50%;
+		  		background-color: rgb(random(99),random(99),random(99));
+		  		top: random(400) - 200 + px;
+    			left: random(400) - 200 + px;
+		  		
+		  		/*
+		  		@if ($stars % 2 != 0) {
+				  	top: $top+px;
+				  	left: $left+px;
+		  		} 
+		  		@else {
+				  	top: $top+px;
+				  	left: $left+px;
+		  		}
+		  		*/
+		  	}
+			  
+			  span {
+			  	position: relative;
+			  	width: 0px;
+			  	height: 0px;
+			  	background-color: transparent;
+			  	animation: star-motion 10s infinite;
+			  	animation-delay: $stars * 0.5 +s;
+
+			  	&:before {
+			  		content: '';
+			  		display: block;
+			  		position: absolute;
+			  		top: $star-size * $pi + px;
+			  		right:$star-size * $pi + px;
+			  		width: 2px;
+			  		height: 2px;
+			  		background-color: $white;
+			  	}
+			  }
+		  }
+
+		  $stars: $stars + 1;
+		}	// End for
+
+
+	}
+}
+
+
+@keyframes star-motion {
+	from{
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

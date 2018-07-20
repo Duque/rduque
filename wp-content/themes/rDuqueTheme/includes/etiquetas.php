@@ -1,4 +1,4 @@
-Etiquetas de <b><?php the_title() ?></b>:
+Etiquetas:
 
 <?php 
   //Lista de etiquetas

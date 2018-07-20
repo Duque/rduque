@@ -1,5 +1,70 @@
 //WORDPRESS REBUILDS
+.list-inline { 
+	//import bootstrap4 list-inline-item on menu
+	.menu-item {
+		@extend .list-inline-item;
+	}
+}
 
-.menu-item {
-	@extend .nav-item; 
+//Menús
+.aside-menu {
+	@extend .nav; 
+	@extend .flex-column;
+	margin-bottom: 			$gutter-grid;
+	padding-bottom: 		$gutter-grid;
+
+	@include media-breakpoint-up(md) {
+		border-bottom:		1px solid $border-color;
+	}
+	
+	& > li a {
+		//font-weight: 			bold;
+	}
+
+	li {
+		@extend .nav-item;
+		list-style-type: 	none;
+
+		@include media-breakpoint-down(sm) {
+			&, & a {
+				padding-right:	0px;
+				padding-left:		0px;
+			}
+		}
+
+		a {
+			@extend .nav-link;
+			padding-right: 	0px;
+		}
+
+		.sub-menu {
+			padding-left:		$gutter-grid;
+
+			li {
+				padding-left:	0px;
+				padding-right:0px;	
+
+				a {
+					font-weight: normal;
+				}
+			}
+		}
+	}
+}
+
+//CONTACT FORM 7 REBUILDS
+.form-group {
+	.wpcf7-form-control {
+		@extend .form-control;
+	}
+
+	.wpcf7-submit {
+		@extend .btn;
+		@extend .btn-primary;
+	}
+}
+
+//THE_POST_THUMBNAIL
+.attachment-post-thumbnail {
+	@extend .card-img-top; 
 }

@@ -5,8 +5,8 @@
 <?php get_header(); ?>
 
 <body>
-  
-<div class="container-fluid">
+
+<div class="container">
   <div class="row">
     <section class="col-xs-12 col-md-8">
       
@@ -14,7 +14,7 @@
       <?php if ( have_posts() ) : ?>
         <?php while ( have_posts() ) : the_post();  ?>
           
-          <article  itemscope itemtype="http://schema.org/Article">
+          <article>
 
             <div class="card">
               <img class="card-img-top" src="<?php the_post_thumbnail_url('post-thumbnail') ?>" alt="Card image cap">
@@ -25,8 +25,7 @@
 
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  <small> Autor: 
-                  <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><?php the_author_posts_link() ?> </span></span> el <span itemprop="datePublished" content="2016-08-12"><?php the_time('j/m/Y') ?></span> en categorías: <?php the_category(', '); ?> </small>  
+                  Autor: <?php the_author_posts_link() ?> el <time><?php the_time('j/m/Y') ?></time> en categorías: <?php the_category(', '); ?>
                 </li>
                 <li class="list-group-item">
                   <?php include 'includes/etiquetas.php'; ?>
@@ -62,7 +61,7 @@
 
 
     </section>
-    <aside class="col-xs-12 col-sm-4">
+    <aside class="col-xs-12 col-md-4">
       <!-- Archivo de barra lateral por defecto -->
       <?php get_sidebar(); ?>
     </aside>
@@ -70,6 +69,7 @@
  
 
 </div>
+
 
 
 <?php get_footer(); ?>

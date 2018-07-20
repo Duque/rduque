@@ -1,20 +1,139 @@
 //BOOTSTRAP REBUILD
-.container-fluid {
-	padding-top: 					$gutter-grid;
 
+// TYPOGRAPHY
+
+.font-size-sm, .font-size-sm > * {
+	font-size:							$font-size-sm !important;
+}
+
+//CONTAINER
+.container-fluid {
 	article {
-		margin-bottom: 			$gutter-grid;
+		margin-bottom: 				$gutter-grid;
 	}
 } 
+
+article > .container-fluid {
+	padding:								0px;
+}
+
+
+//MENUS
+//Navs defaults
+nav {
+	a {
+		color: 											$gray-700;
+	}
+} 
+
+nav.navbar {
+	padding:											0px 0px 0px 0px;
+	z-index:											40;
+	background: 									rgba(41,76,93,0.9);
+	box-shadow:										$vertical-shadow;
+	/*background: -moz-linear-gradient(top, rgba(41,76,93,0.8) 0%, rgba(41,76,93,0.8) 51%, rgba(41,76,93,0) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(41,76,93,0.8)), color-stop(51%, rgba(41,76,93,0.8)), color-stop(100%, rgba(41,76,93,0)));
+	background: -webkit-linear-gradient(top, rgba(41,76,93,0.8) 0%, rgba(41,76,93,0.8) 51%, rgba(41,76,93,0) 100%);
+	background: -o-linear-gradient(top, rgba(41,76,93,0.8) 0%, rgba(41,76,93,0.8) 51%, rgba(41,76,93,0) 100%);
+	background: -ms-linear-gradient(top, rgba(41,76,93,0.8) 0%, rgba(41,76,93,0.8) 51%, rgba(41,76,93,0) 100%);
+	background: linear-gradient(to bottom, rgba(41,76,93,0.8) 0%, rgba(41,76,93,0.8) 51%, rgba(41,76,93,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#294c5d', endColorstr='#294c5d', GradientType=0 );
+	*/
+
+	.navbar-toggler {
+		border:											none;
+	}
+
+	.container {
+		padding-left:								$gutter-grid/2 !important;
+		padding-right:							$gutter-grid/2 !important;
+	}
+
+	.navbar-brand {
+		position: 									relative;
+		margin-bottom: 							0px!important;
+		padding-top: 								10px;
+		padding-bottom: 						14px;
+		font-family: 								'Bevan', cursive;
+		color:											$white;//$color-primary-4; 
+		font-size: 									30px;
+		text-shadow: 								0px 0px 5px rgba(0,0,0,0.8);
+		animation-duration: 				0.5s;
+		animation-name:							logoAnimation;
+
+		&:hover {
+			transform:								sclae(0.2);
+			color:										$white;
+		}
+
+	}
+
+
+	.navbar-collapse {
+		
+		.menu-item {
+
+			a {
+				color: 										$white;
+				font-size: 								1.3em;
+
+				&:hover {	
+					color:									$white;
+				}
+			}
+		}
+
+		.navbar-nav {
+			@include media-breakpoint-down(md) {
+				height: 								100vh;
+				padding-top:						20px;
+			}	
+
+			li {
+				@include media-breakpoint-up(lg) {
+					margin-right: 	$gutter-grid;
+				}
+
+				@include media-breakpoint-down(md) {
+					margin-bottom: 	$spacer;
+				}
+			}
+
+
+		}
+	}
+}
+ 
+
+// LIST
+.list-inline {
+	li:last-child {
+		margin-right: 				0px;
+	}
+
+	.list-inline-item {
+		
+		h2, h3 {
+			margin-top: 				0px;
+			margin-bottom: 			0px;
+		}
+	}
+}
+
 
 
 //BUTTONS
 .btn {
 
-	color: 								$white;
+	color: 									$white;
 
 	&:hover {
-		color: 							$white;
+		color: 								$white; 
+		cursor: 							pointer;
+	}
+
+	&.btn-primary {
+		color:								$white!important;
 	}
 
 }
@@ -22,20 +141,103 @@
 
 //BADGES
 .badge {
-	
+	font-weight:							normal;
+	margin-bottom:						0px;
+
 	a {
-		color: 							$white!important;   
+		font-weight:						normal;
+	}
+
+	&.badge-info {
+		a {
+			color: 								$white!important;   
+		}
+	}
+
+	&.badge-light {
+		color:									$color-primary-4;
+	}
+
+	&.badge-secondary {
+		color:									$white;
 	}
 }
 
+
 //CARDS
-.card {
+.card {	
+	margin-bottom:						$gutter-grid * 2;
+
+	@include media-breakpoint-up(md) {
+
+		.card-body.equal {
+			overflow:							hidden; 
+			height: 							260px; 
+		}
+	}
 
 	.card-text {
 
 		img {
-			max-width: 				100%;
-			height: 					auto;
+			max-width: 						100%;
+			height: 							auto;
 		}
 	}
+
+	.card-body {
+
+		h1, h2, h3 {
+			margin-top: 						$gutter-grid * 3;
+
+			&.card-title {
+				margin-top: 					$gutter-grid;
+			}
+		}
+		h3 {
+			margin-top: 						$gutter-grid * 2;
+		}
+	}
+
+	.card-footer {
+
+		.list-inline {
+			margin-bottom:					0px;
+		}
+	}
+}
+
+//PAGINATION
+.pagination {
+	li {
+		@extend .page-item;
+
+		span {
+			@extend .page-link;
+		}
+	}
+}
+
+// MEDIA COMPONENT
+.media {
+	margin-bottom:				$gutter-grid;
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 			0px;
+		margin-top: 				0px!important; 
+	}
+
+	.material-icons {
+		color: $color-primary-4;
+	}
+}
+
+
+@keyframes logoAnimation {
+  from {
+    top:								-100px;
+  }
+
+  to {
+    top:								0px;
+  }
 }

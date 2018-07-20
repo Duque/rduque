@@ -14,7 +14,7 @@
 4 verbose stack     at tryToString (fs.js:457:3)
 4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
 5 verbose cwd /var/www/html/rDuqueTW
-6 error Linux 4.4.0-97-generic
+6 error Linux 4.4.0-98-generic
 7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "watch"
 8 error node v6.11.3
 9 error npm  v3.10.10

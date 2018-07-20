@@ -26,5 +26,8 @@
     "jquery": "^3.0.0",
     "popper.js": "^1.12.5",
     "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "gulp-purifycss": "^0.2.0"
   }
 }

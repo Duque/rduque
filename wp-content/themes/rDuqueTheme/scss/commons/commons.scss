@@ -1,23 +1,186 @@
-//OUR CSS
+// OUR CSS
+
+body {
+	padding-top:						100px;
+}
+
+table {
+	max-width:							100%;
+
+	td { word-break: 				break-all; }
+}
+
+*, *:focus { 
+	outline-style: 							none!important;
+}
+
+//TYPOGRAPHY
+
+.bevan {
+	font-family: 								'bevan';
+}
+
+// ICONS
+.material-icons {
+  font-family: 								'Material Icons';
+  font-weight: 								normal;
+  font-style: 								normal;
+  display: 										inline-block;
+  line-height: 								1;
+  text-transform: 						none;
+  letter-spacing: 						normal;
+  word-wrap: 									normal;
+  white-space: 								nowrap;
+  direction: 									ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: 		antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: 						optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: 		grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+
+  &.md-18 { 									font-size: 18px; }
+	&.md-24 { 									font-size: 24px; }
+	&.md-36 { 									font-size: 36px; }
+	&.md-48 { 									font-size: 48px; }
+	&.md-56 { 									font-size: 56px; }
+	&.md-100 { 									font-size: 100px; }
+
+	&.border {
+		padding:									$gutter-grid / 2;
+	}
+}
+
+.rd_page-header {
+	position:										relative;
+	overflow:										hidden;
+	height:											auto;
+	margin-bottom:							$gutter-grid;
+	background-color: 					transparent;
+	
+	/* 
+	border:											2px solid #90A4AE;
+	-webkit-box-shadow: 				$rd_header;
+	-moz-box-shadow: 						$rd_header;
+	box-shadow: 								$rd_header;
+	*/
+
+	h1 {
+		width: 										100%;
+		margin-bottom: 						0px; 
+		padding-top:							25px;
+		padding-bottom:						25px;
+		text-align: 							left;
+		color:										$color-primary-4;
+		font-size: 								40px;
+		font-family: 							'bevan';
+		//text-shadow: 							$text-shadow;
+	} 
+}
+
+// GOOGLE FORMS
+.rd_google-form {
+	overflow:										hidden;
+	min-height:									1200px;
+}
 
 
-//MENUS
+// FOOTER
+.rd_footer-layout {
+	padding-top:								$gutter-grid * 2;
+	border-top:									1px solid $gray-200;
 
-//Navs defaults
-nav {
-	a {
-		color: $gray-700;
+	nav {
+		margin-bottom:						$gutter-grid;
 	}
 }
 
 
-//Footer Menu
-.menu-menu-inferior-container {
-	.menu {
-		@extend .list-inline;
+// BACKGROUNDS
+// Example: <div class="rd_bg-fluid rd_bg-blue-gray-900"><h1>Hello Woord</h1></div>
 
-		.menu-item {
-			@extend .list-inline-item;
+.rd_bg-fluid {
+	//padding-top:							$gutter-grid * 2;
+	//padding-bottom:						$gutter-grid * 2;
+	position:										relative;
+}
+
+@each $backgroundName, $backgroundColor in (
+	blue-gray-50: $blue-gray-50, 
+	blue-gray-100: $blue-gray-100, 
+	blue-gray-200: $blue-gray-200, 
+	blue-gray-300: $blue-gray-300, 
+	blue-gray-400: $blue-gray-400, 
+	blue-gray-500: $blue-gray-500, 
+	blue-gray-600: $blue-gray-600, 
+	blue-gray-700: $blue-gray-700, 
+	blue-gray-800: $blue-gray-800, 
+	blue-gray-900: $blue-gray-900
+) {
+  .rd_bg-#{$backgroundName} {
+		@extend .container-fluid;
+    background-color: 				$backgroundColor;
+		
+
+		&, h1, h2, h3 {			
+			@if $backgroundName == 'blue-gray-50' or
+					$backgroundName == 'blue-gray-100'
+			{ 
+				color: 								$blue-gray-600;
+			} 
+
+			@if $backgroundName == 'blue-gray-200' or
+					$backgroundName == 'blue-gray-300' or
+					$backgroundName == 'blue-gray-400' or
+					$backgroundName == 'blue-gray-500' or
+					$backgroundName == 'blue-gray-600' or
+					$backgroundName == 'blue-gray-700' or
+					$backgroundName == 'blue-gray-800' or
+					$backgroundName == 'blue-gray-900'
+			{ 
+				color: 								$white;
+			}
 		}
-	} 
+  }
+}
+
+
+// UTILS 
+
+.show {
+	display:												block!important;
+}
+
+.hide {
+	display:												none!important;
+}
+
+.veil {
+	display:												none;
+	position:												absolute;
+	top:														0px;
+	left:														0px;
+	z-index:												10;
+	width:													100%;
+	height:													100%;
+	background-color:								rgba(0,0,0,0.0);
+
+	&.active {
+		display: 											block;
+	}
+
+	&.active.front {
+		z-index: 											20;
+		background-color:							rgba(0,0,0,0.5);
+	}
+}
+
+// IMAGES
+.rd_img_swiip {
+	width:													200px;
 }

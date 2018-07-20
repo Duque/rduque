@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const purify = require('gulp-purifycss');
 
 const nunjucksRender = require('gulp-nunjucks-render');
 const sass = require('gulp-sass');
@@ -54,4 +55,15 @@ gulp.task('browser-sync', function() {
             baseDir: "./"
         }
     });
+});
+
+gulp.task('purify', function() {
+  return gulp.src('./wp-content/themes/rDuqueTheme/style.css')
+    .pipe(purify(['./wp-content/themes/rDuqueTheme/js/*.js', './wp-content/themes/rDuqueTheme/purify/*.html']))
+    .pipe(gulp.dest('./wp-content/themes/rDuqueTheme/purify/'));
+/*
+USAGE: 
+(Tiene algunos problemillas, hay que afinar mucho y configurar adhoc)
+node_modules/purify-css/bin/purifycss ./wp-content/themes/rDuqueTheme/style.css ./wp-content/themes/rDuqueTheme/purify/orig/services_3D.html ./wp-content/themes/rDuqueTheme/purify/orig/index.html ./wp-content/themes/rDuqueTheme/js/rd_3D-services.js --min --info --out ./wp-content/themes/rDuqueTheme/purify/style.css
+*/
 });

@@ -1,25 +1,26 @@
 <?php get_header(); ?>
 <!-- Contenido de página de inicio -->
 <?php if ( have_posts() ) : the_post(); ?>
-  <div class="container">
 
-  		<div class="row">	
-  	  	<article class="col-xs-12">
 
-              <div class="page-header">
-            	  <h1>
-                  <?php the_title() ?>
-                </h1>
-              </div>
+	<article>
+ 
+    <div class="container-fluid">
 
-              <?php the_content() ?>
+      <?php include 'includes/rd_page-header.php'; ?>
 
-			<?php endif; ?>
-     	</article>
+    </div>
 
-		</div>    
+    <div class="container">        
+      <?php the_content() ?> 
+    </div>      
+  
+    <hr>
 
-</div>
+  </article>
+
+
+<?php endif; ?>
 
 <!-- Archivo de pié global de Wordpress -->
 <?php get_footer(); ?>

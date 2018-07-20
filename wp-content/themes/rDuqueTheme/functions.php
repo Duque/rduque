@@ -9,7 +9,8 @@ if ( function_exists( 'register_nav_menus' ) ) {
         array(
           'inferior' => 'Menú inferior',
           'principal'   => 'Menú principal',
-          'aside' => 'Menú aside'
+          'aside' => 'Menú aside',
+          'services' => 'Menú servicios'
         )
     );
 }
