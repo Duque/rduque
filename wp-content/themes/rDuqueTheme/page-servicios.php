@@ -3,15 +3,6 @@
 <?php if ( have_posts() ) : the_post(); ?>
 
  	<section>
-
-		<?php 
-			// Servicios a 3 columnas
-			//include 'includes/rd_servicios-3D.php';
-		?>		
-		<?php 
-			// Servicios a 3 columnas
-			//include 'includes/css-galaxy.php';
-		?>	
  		
 		<div class="container">
 
