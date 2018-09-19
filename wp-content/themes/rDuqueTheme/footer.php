@@ -24,11 +24,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 
   <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/chart.min.js"></script>
   
   <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/rd_3D-services.js"></script>
 
 
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/css-galaxy.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/rduque.js"></script>
 
   <?php include 'includes/facebookSDK.php' ?>
 
